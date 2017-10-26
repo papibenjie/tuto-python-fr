@@ -1,3 +1,6 @@
+# Seule les fonctions doivent etres complete
+
+
 import random
 
 
@@ -39,15 +42,18 @@ def afficheMot(mot):
     pass
 
 
-mots = ["chien", "chat", "abeille", "minou"]
 
-mot = choisirMot(mots)
-motUtilisateur = motCache(mot)
+if __name__ == '__main__':
 
-while mot != motUtilisateur:
-    afficheMot(motUtilisateur)
-    lettre = demandeInput()
-    poses = trouvePoses(lettre, mot)
-    motUtilisateur = remplaceLettre(lettre, motUtilisateur, poses)
+    mots = ["chien", "chat", "abeille", "minou"]
 
-print(mot)
+    mot = choisirMot(mots)
+    motUtilisateur = motCache(mot)
+
+    while mot != motUtilisateur:
+        afficheMot(motUtilisateur)
+        lettre = demandeInput()
+        poses = trouvePoses(lettre, mot)
+        motUtilisateur = remplaceLettre(lettre, motUtilisateur, poses)
+
+    print(mot)
