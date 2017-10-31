@@ -20,7 +20,7 @@ def motCache(mot):
 
 def demandeInput():
     # cette fonction retourne une lettre que l'utilisateur
-    # choisira. (pas de nombre, pas de majuscule)
+    # choisira.
     return "b"
 
 

@@ -26,8 +26,8 @@ def trouvePoses(lettre, mot):
     # trouve LES position de la lettre dans le mots
     # ex: trouvePoses("b", "baba") -> [0,2]
     poses = []
-    for i, l in enumerate(mot):
-        if l == lettre:
+    for i, v in enumerate(mot):
+        if v == lettre:
             poses.append(i)
     return poses
 

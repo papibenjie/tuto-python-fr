@@ -1,7 +1,6 @@
 # Ceci est un commentaire !
 # ces lignes ne seront pas execute
 
-
 # pour le bien de ce tutoriel, python3 et non python2 sera utilise
 # Aussi pour la clarte, l'avertissement E501 Line too long sera ignorer ( pour les plus avance )
 
