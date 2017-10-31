@@ -1,4 +1,4 @@
-# Ces fonctions simples doivent etre coder
+# Ces fonctions simples doivent etre recoder
 
 # fonctions sur les listes
 # Les fonction suivantes sont deja disponible dans python ! (max, min, sum)
